@@ -10886,7 +10886,6 @@ body{margin-top:20px;}
     width: 10rem;
     text-align: center
 }
-
 .timeline-steps .timeline-content .inner-circle {
     border-radius: 1.5rem;
     height: 1rem;
@@ -10894,9 +10893,11 @@ body{margin-top:20px;}
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #3b82f6
+    background-color: #3b82f6;
 }
-
+.timeline-steps .timeline-content .inner-circle:hover{
+  background-color: #000;
+}
 .timeline-steps .timeline-content .inner-circle:before {
     content: "";
     background-color: #3b82f6;
