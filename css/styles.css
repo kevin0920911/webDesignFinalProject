@@ -10895,8 +10895,19 @@ body{margin-top:20px;}
     justify-content: center;
     background-color: #3b82f6;
 }
-.timeline-steps .timeline-content .inner-circle:hover{
-  background-color: #000;
+.timeline-steps .timeline-step .timeline-content .content{
+  display: none;
+}
+.timeline-steps .timeline-step .timeline-content:hover .content{
+  display: block;
+  top: -45px;
+  left: 0;
+  color: white;
+  font-size: .5em;
+  background: #0dcaf0;
+  padding: 5px;
+  border-radius: 5px;
+  
 }
 .timeline-steps .timeline-content .inner-circle:before {
     content: "";
