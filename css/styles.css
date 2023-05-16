@@ -10920,7 +10920,7 @@ body{margin-top:20px;}
     border-radius: 6.25rem;
     opacity: .5
 }
-header {
+header.city {
   height: 1000px;
   background-image: url('https://i.pravatar.cc/300');
   background-repeat: no-repeat;
