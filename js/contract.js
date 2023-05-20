@@ -12,7 +12,7 @@ function submit(){
     const config = { method: "POST", body: formdata, redirect: "follow" };
     //call api
     fetch(
-      "https://script.google.com/macros/s/AKfycby4NfD-dRan680dNwhz82E71RkTK1NxqyNxo5zmKpV6I0KZv8KOBRaZSVgK8SsMXloZ/exec",
+      "https://script.google.com/macros/s/AKfycbzrYHciGKMc-QDVnVLl_dutUvrWPaFFkBUHqdRl2ZIkGE5OsuZqHMl0WO0qqp0dPWEM/exec",
       config
     )
       .then((response) => response.text())
