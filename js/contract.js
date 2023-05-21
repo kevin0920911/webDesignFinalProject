@@ -2,6 +2,7 @@ const form = document.getElementById("contactForm");
 const button = document.getElementById("submitButton");
 button.addEventListener("click",submit);
 function submit(){
+    
     let formdata = new FormData();
     formdata.append("time", new Date());
     formdata.append("name", form.elements.name.value);
@@ -12,20 +13,17 @@ function submit(){
     const config = { method: "POST", body: formdata, redirect: "follow" };
     //call api
     fetch(
-      "https://script.google.com/macros/s/AKfycbzrYHciGKMc-QDVnVLl_dutUvrWPaFFkBUHqdRl2ZIkGE5OsuZqHMl0WO0qqp0dPWEM/exec",
+      "https://script.google.com/macros/s/AKfycbxtDnfbk6h-azKNJHCj8ycOYtie65k0KxYn5NdwFBU57u0RAhlmc1Xmf8fYVw6Fv2KP/exec",
       config
     )
-      .then((response) => {
-        response.text();
-      })
       .then((result) => {
-        if (result === "success") {
+        if (result.ok) {
           window.alert("Success!");
           location.reload();
         }
       })
       .catch((error) => {
-        window.alert("Error!");
+        window.alert("Error! Please try again");
         location.reload();
       });
 }
