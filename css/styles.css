@@ -10922,7 +10922,7 @@ body{margin-top:20px;}
 }
 header.city {
   height: 1000px;
-  background-image: url('https://i.pravatar.cc/300');
+  background-image: url("../img/sunset.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 0;
