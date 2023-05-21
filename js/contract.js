@@ -15,12 +15,17 @@ function submit(){
       "https://script.google.com/macros/s/AKfycbzrYHciGKMc-QDVnVLl_dutUvrWPaFFkBUHqdRl2ZIkGE5OsuZqHMl0WO0qqp0dPWEM/exec",
       config
     )
-      .then((response) => response.text())
+      .then((response) => {
+        response.text();
+      })
       .then((result) => {
         if (result === "success") {
-          console.log("success");
+          window.alert("Success!");
           location.reload();
         }
       })
-      .catch((error) => console.log("error", error));
+      .catch((error) => {
+        window.alert("Error!");
+        location.reload();
+      });
 }
