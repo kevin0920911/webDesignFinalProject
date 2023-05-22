@@ -10955,3 +10955,15 @@ header.city {
 .card:hover{
   transform:scale(1.05);
 }
+.image-caption {
+	display: none;
+	opacity: 0.8;
+	background-color: gainsboro;
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	padding: 10px;
+}
+.image-frame {
+	position: block;
+}
