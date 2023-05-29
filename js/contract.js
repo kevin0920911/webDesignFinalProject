@@ -1,8 +1,7 @@
 const form = document.getElementById("contactForm");
 const button = document.getElementById("submitButton");
 button.addEventListener("click",submit);
-function submit(){
-    
+function submit(){  
     let formdata = new FormData();
     formdata.append("time", new Date());
     formdata.append("name", form.elements.name.value);
