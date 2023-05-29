@@ -1456,8 +1456,10 @@ progress {
     width: 41.66666667%;
   }
   .col-xl-6 {
+    background-color: hsla(0, 0%, 90%, 0.6);
+    border-radius: 15px;
     flex: 0 0 auto;
-    width: 50%;
+    width: 23%;
   }
   .col-xl-7 {
     flex: 0 0 auto;
@@ -7602,7 +7604,10 @@ textarea.form-control-lg {
 }
 
 .mt-2 {
-  margin-top: 0.5rem !important;
+  background-color: #dde7c7;
+  height: auto;
+  border-radius: 10px;
+  /*margin-top: 0.5rem !important;*/
 }
 
 .mt-3 {
@@ -7785,7 +7790,7 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  
+  background-color: #ffcdb2;
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
@@ -8160,7 +8165,8 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #e7d8c9;
+  /*background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;*/
 }
 
 .bg-dark {
@@ -10870,7 +10876,7 @@ body{margin-top:20px;}
     .timeline-steps .timeline-step:not(:last-child):after {
         content: "";
         display: block;
-        border-top: .25rem dotted #3b82f6;
+        border-top: .25rem dotted #5e3023;
         width: 3.46rem;
         position: absolute;
         left: 7.5rem;
@@ -10879,7 +10885,7 @@ body{margin-top:20px;}
     .timeline-steps .timeline-step:not(:first-child):before {
         content: "";
         display: block;
-        border-top: .25rem dotted #3b82f6;
+        border-top: .25rem dotted #5e3023;
         width: 3.8125rem;
         position: absolute;
         right: 7.5rem;
@@ -10898,7 +10904,7 @@ body{margin-top:20px;}
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: #3b82f6;
+    background-color: #774936;
 }
 .timeline-steps .timeline-step .timeline-content .content{
   display: none;
@@ -10910,14 +10916,14 @@ body{margin-top:20px;}
   left: 0;
   color: white;
   font-size: .5em;
-  background: #0dcaf0;
+  background: #c38e70;
   padding: 5px;
   border-radius: 5px;
   
 }
 .timeline-steps .timeline-content .inner-circle:before {
     content: "";
-    background-color: #3b82f6;
+    background-color: #9d6b53;
     display: inline-block;
     height: 3rem;
     width: 3rem;
