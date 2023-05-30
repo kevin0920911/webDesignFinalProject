@@ -97,7 +97,7 @@
 
 body {
   margin: 0px;
-  padding: 0;
+  padding: 0px;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -10858,7 +10858,7 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
-body{margin-top:20px;}
+
 .timeline-steps {
     display: flex;
     justify-content: center;
